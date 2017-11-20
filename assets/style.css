@@ -1,5 +1,5 @@
 body {
-    background-color: #2979FF;
+    background-color: #03A9F4;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -11,11 +11,11 @@ a {
 }
 
 .active {
-    background-color: #2979FF;
+    background-color: #03A9F4;
 }
 
 .navigation {
-    background-color: #2962FF;
+    background-color: #01579B;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,13 +31,26 @@ a {
 }
 
 .links a:hover {
-    background-color: #2979FF;
+    background-color: #03A9F4;
 }
 .container {
     max-width: 1100px;
     margin: 0 auto;
 
 }
+
+.popular-attraction a:hover, #header a:hover, .destination-description a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.popular-attraction a, #header a, .destination-description a {
+    text-decoration: underline;
+    padding: 9px;
+    border-radius: 6px;
+    background-color:  #01579B;
+    box-shadow: 1px 1px 8px -2px #000;
+}
+
 
 /*******************************
     HOME PAGE
@@ -72,18 +85,46 @@ a {
 .popular-attraction img {
     width: 100%;
 }
-.popular-attraction a, #header a {
-    text-decoration: underline;
-    padding: 9px;
-    border-radius: 6px;
-    background-color:  #2962FF;
-    box-shadow: 1px 1px 8px -2px #000;
-}
 
-.popular-attraction a:hover, #header a:hover {
-    background-color: rgba(255,255,255,0.3);
-}
 
 /*****************************************
               DESTINATIONS
 *****************************************/
+
+#destinations-container {
+   margin-top: 2em;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+} 
+
+.destination {
+    display: flex;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+.destination:nth-child(even) {
+    flex-direction: row-reverse;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.destination-img img {
+    max-width: 100%;
+
+}
+
+.destination-description {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+.destination:nth-child(even) .destination-description {
+    text-align: right;
+}
+
