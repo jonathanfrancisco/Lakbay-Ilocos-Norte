@@ -1,10 +1,38 @@
 body {
     background-color: #2979FF;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;;
+}
 
+.active {
+    background-color: #2979FF;
+}
 
+.navigation {
+    background-color: #2962FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    font-size: 1.35em;
+    padding: 28px; 
+}
+
+.links a:hover {
+    background-color: #2979FF;
+}
 
 /*******************************
     HOME PAGE
