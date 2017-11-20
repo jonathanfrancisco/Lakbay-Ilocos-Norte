@@ -52,10 +52,30 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: -2px 2px 8px 0px #fff;
 }
 
 #header h1 {
     font-size: 5em;
     margin: 0;
+}
+
+#popular {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.popular-attraction {
+    width: 33.33%;
+    padding: 10px;
+    
+}
+.popular-attraction img {
+    width: 100%;
+}
+.popular-attraction a {
+    text-decoration: underline;
+    padding: 9px;
+    border-radius: 8px;
+    background-color:  #2962FF;
+    box-shadow: 1px 1px 8px -2px #000;
 }
