@@ -72,10 +72,14 @@ a {
 .popular-attraction img {
     width: 100%;
 }
-.popular-attraction a {
+.popular-attraction a, #header a {
     text-decoration: underline;
     padding: 9px;
-    border-radius: 8px;
+    border-radius: 6px;
     background-color:  #2962FF;
     box-shadow: 1px 1px 8px -2px #000;
+}
+
+.popular-attraction a:hover, #header a:hover {
+    background-color: rgba(255,255,255,0.3);
 }
