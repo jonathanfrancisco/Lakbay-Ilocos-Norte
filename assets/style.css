@@ -114,8 +114,14 @@ a {
 
 .destination-img img {
     max-width: 100%;
-
+    box-shadow: -5px 5px 8px 1px #01579B;
 }
+
+.destination:nth-child(even) .destination-img img {
+    box-shadow: 5px 5px 8px 1px #01579B;
+}
+
+
 
 .destination-description {
     display: flex;
