@@ -4,6 +4,7 @@ body {
     padding: 0;
     opacity: 1;
     transition: 1s;
+    font-family: 'Helvetica';
 }
 
 .fade-out {
@@ -185,8 +186,13 @@ p {
     margin: 0;
 }
 
-.destination-description p {
-    margin-bottom: 20px;
+.destination-description div:nth-child(2) p {
+    background: url('images/automobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-left: 30px;
 }
 
 .destination-description h4 {
