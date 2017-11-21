@@ -139,6 +139,11 @@ p {
     flex-direction: row-reverse;
 }
 
+.destination div {
+    width: 50%;
+}
+
+
 .destination-img {
     padding-right: 15px;
 }
@@ -158,10 +163,14 @@ p {
 }
 
 
-
 .destination-description {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.destination-description div {
+    width: 100%;
 }
 
 
