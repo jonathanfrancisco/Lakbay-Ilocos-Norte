@@ -47,7 +47,7 @@ a {
     color: #000;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 
 }
@@ -66,6 +66,10 @@ a {
 
 h4, h3 {
     color: rgba(0,0,0,0.75);
+}
+
+h4 img {
+    width: 25px;
 }
 
 p {
@@ -129,16 +133,12 @@ p {
 
 .destination {
     display: flex;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     margin-bottom: 20px;
 }
 
 
 .destination:nth-child(even) {
     flex-direction: row-reverse;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
 }
 
 .destination-img img {
@@ -158,10 +158,6 @@ p {
     padding: 25px;
 }
 
-
-.destination:nth-child(even) .destination-description {
-    text-align: right;
-}
 
 .destination-description h1 {
     color: rgba(0,0,0,0.75);
