@@ -47,7 +47,7 @@ a {
     color: #000;
 }
 .container {
-    max-width: 1350px;
+    max-width: 1100px;
     padding: 15px;
     margin: 0 auto;
 
@@ -135,7 +135,6 @@ p {
     margin-bottom: 5em;
 }
 
-
 .destination:nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -168,5 +167,13 @@ p {
 
 .destination-description h1 {
     color: rgba(0,0,0,0.75);
+    margin: 0;
+}
+
+.destination-description p {
+    margin-bottom: 20px;
+}
+
+.destination-description h4 {
     margin: 0;
 }
