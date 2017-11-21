@@ -1,3 +1,21 @@
+function process() {
+
+    let fields = document.querySelectorAll('#message-form input, #message-form textarea');
+    let missingFields = false;
+
+    fields.forEach(function(input) {
+    if(input.value === "") 
+        missingFields = true;
+    });
+    
+    console.log(missingFields);
+
+    if(missingFields)
+        alert("Missing required fields. Please, try again.");
+    else 
+     alert("Thank you for getting in touch with us! We will get back to you soon.");
+    
+}
 
 
 function closeLightBox(node) {
@@ -43,6 +61,9 @@ function getAndSetContents(destination) {
    
 }
 
+window.onload = function() {
+    document.querySelector('body').classList.remove('fade-out');
+}
 
 const destinationsContainer = document.getElementById('destinations-container');
 
