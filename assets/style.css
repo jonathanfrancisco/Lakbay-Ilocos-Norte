@@ -287,3 +287,51 @@ p {
 .attraction-description {
     padding: 10px;
 }
+
+/********************************
+        CONTACT
+********************************/
+
+#contact-container {
+    margin-top: 2em;
+    display: flex;
+}
+
+#contact-container h1 {
+    color: rgba(0,0,0,0.75);
+}
+
+#contact-container div {
+    width: 50%;
+    padding: 50px;
+}
+
+#contact-container ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#message-form  {
+    background-color:#00E676; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px -2px #000;
+}
+
+#message-form input, #message-form textarea, #message-form button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #fff;
+    padding: 7px;
+}
+
+
+#message-form button:hover {
+    background-color: #fff;
+    color: #00E676;
+    cursor: pointer;
+}
