@@ -24,6 +24,7 @@ a {
 .navigation {
     background-color: #01579B;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -85,9 +86,7 @@ a {
 }
 
 .popular-attraction {
-    width: 33.33%;
     padding: 10px;
-    
 }
 .popular-attraction img {
     width: 100%;
