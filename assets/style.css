@@ -1,6 +1,5 @@
 body {
-    background-color: #03A9F4;
-    color: #fff;
+    color: black;
     margin: 0;
     padding: 0;
     opacity: 1;
@@ -18,11 +17,12 @@ a {
 }
 
 .active {
-    background-color: #03A9F4;
+    background-color: #fff;
+    color: #000;
 }
 
 .navigation {
-    background-color: #01579B;
+    background-color: #00E676;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -33,31 +33,46 @@ a {
     display: flex;
 }
 
+.name {
+    color: #fff;
+}
+
 .links a {
     font-size: 1.35em;
     padding: 28px; 
 }
 
 .links a:hover {
-    background-color: #03A9F4;
+    background-color: #fff;
+    color: #000;
 }
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
 
 .popular-attraction a:hover, #header a:hover, .destination-description a:hover {
-    background-color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
 
 .popular-attraction a, #header a, .destination-description a {
     text-decoration: underline;
     padding: 9px;
     border-radius: 6px;
-    background-color:  #01579B;
+    background-color: #00C853;    
     box-shadow: 1px 1px 8px -2px #000;
 }
+
+h4, h3 {
+    color: rgba(0,0,0,0.75);
+}
+
+p {
+    color: rgba(0,0,0,0.65);
+}
+
+
 
 
 /*******************************
@@ -78,6 +93,11 @@ a {
 #header h1 {
     font-size: 5em;
     margin: 0;
+    color: #fff;
+}
+
+#header h3 {
+    color: #fff;
 }
 
 #popular {
@@ -90,7 +110,10 @@ a {
 }
 .popular-attraction img {
     width: 100%;
+    box-shadow: 0px 1px 3px -2px #000;
 }
+
+
 
 
 /*****************************************
@@ -120,11 +143,11 @@ a {
 
 .destination-img img {
     max-width: 100%;
-    box-shadow: -5px 5px 8px 1px #01579B;
+    box-shadow: -2px 2px 10px -2px #000;
 }
 
 .destination:nth-child(even) .destination-img img {
-    box-shadow: 5px 5px 8px 1px #01579B;
+    box-shadow: 2px 2px 10px -2px #000;
 }
 
 
@@ -140,3 +163,6 @@ a {
     text-align: right;
 }
 
+.destination-description h1 {
+    color: rgba(0,0,0,0.75);
+}
