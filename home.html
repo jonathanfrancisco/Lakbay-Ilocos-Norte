@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="assets/style.css">
     </head>
     
-    <body>
+    <body class="fade-out">
 
 
         <div class="navigation">
@@ -84,7 +84,15 @@
             </div>
 
         </div>
+        
+        <script>
+            window.onload = function() {
+                document.querySelector('body').classList.remove('fade-out');
+            }
 
+            
+
+        </script>
 
     </body>
 </html>
