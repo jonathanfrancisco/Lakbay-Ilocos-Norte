@@ -198,3 +198,92 @@ p {
 .destination-description h4 {
     margin: 0;
 }
+
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 1px;
+    background-color: rgba(255,255,255,0.95);
+    overflow: scroll;
+    opacity: 0;
+    transition: 1s width ease-in;
+}
+
+
+.lightbox p {
+    color: rgba(0,0,0,0.65);
+}
+
+
+#close {
+    margin: 0;
+    padding: 10px;
+    padding-right: 100px;
+    color: #fff;
+    background-color: #00E676;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    width: 100%;
+}
+
+#lightbox-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,230,118,0.75);
+    text-align: right;
+    padding: 10px;
+}
+
+#lightbox-header a {
+    font-size: 2em;
+    padding-right: 5em;
+    text-decoration: underline;
+}
+
+#header-attractions h1, #header-attractions p  {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+#header-attractions h1 {
+    font-size: 4em;
+}
+
+#header-attractions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header-attractions {
+    background: url('images/pagudpud.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#attractions-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#attractions-container div {
+    width: 50%;
+}
+
+#attractions-container div img {
+    max-width: 100%;
+}
+
+.attraction {
+    display: flex;
+    margin: 3em 0;
+}
+
+
+.attraction-description {
+    padding: 10px;
+}
