@@ -35,6 +35,14 @@ a {
 
 .name {
     color: #fff;
+    display: flex;
+}
+
+.name h1 {
+    background: url('images/hiker.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding-left: 50px;
 }
 
 .links a {
