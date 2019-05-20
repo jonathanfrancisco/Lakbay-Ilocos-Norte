@@ -3,4 +3,4 @@
 
 
 
-I learned flexbox then I applied what I learned, on this project.
+I learned flexbox then I applied what I learned on this project.
